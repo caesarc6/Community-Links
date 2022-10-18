@@ -6,11 +6,12 @@ body {
   background-color: #000000;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
 }
 
 .App-header {
   overflow: hidden;
-  height: calc(100vh - 32px);
+  height: calc(100vh - 15px);
 }
 
 .App-link {
@@ -20,11 +21,10 @@ body {
   text-align: center;
   color: #ffffff;
   margin: 0.7rem auto;
-  padding: 35px 20px;
+  padding: 35px 20px 35px 20px;
 }
 .cards {
   display: block;
-  margin-top: 10px;
   font-weight: 700;
   font-size: 16px;
   letter-spacing: 0.1em;
@@ -89,7 +89,7 @@ a {
 // footer a
 footer {
   width: auto;
-  height: 20px;
+  height: 10px;
   display: flex;
   justify-content: center;
 }
@@ -97,7 +97,7 @@ footer {
 .footer {
   text-align: center;
   margin-top: 0px;
-  font-size: 11px;
+  font-size: 8px;
   color: #828282;
 }
 
@@ -169,6 +169,13 @@ footer {
   overflow-x: hidden;
 }
 
+.bottom-Right {
+  bottom: -900px;
+  left: -600px;
+  overflow: hidden;
+  animation: circle1 13s linear infinite, glow 5s ease-in-out infinite;
+}
+
 @-webkit-keyframes circle {
   0% {
     transform: rotate(0deg) translate(-165px) rotate(0deg);
@@ -234,15 +241,41 @@ footer {
 
 // max height
 
-@media (max-height: 1050px) {
+@media (max-height: 850px) {
   .App-header {
-    height: calc(100vh - 33px);
+    height: calc(100vh - 120px);
   }
   .App-link {
-    margin-top: 0;
-    margin-bottom: 1px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    padding: 20px 20px 20px 20px;
   }
+  .footer a.App-link {
+    margin-top: 0px;
+    padding: 5px;
+    margin: 0px auto;
+  }
+
   .logoPicture {
-    height: 30vmin;
+    height: 15vmin;
+  }
+  .logoPicture img {
+    height: 14.5vmin;
+  }
+  .backgroundImage {
+    top: -834px;
+  }
+  // .footer {
+  //   margin: 5px;
+  // }
+  .middle-Right {
+    right: -600px;
+  }
+  .bottom-Left {
+    bottom: -600px;
+  }
+  .bottom-Right {
+    bottom: -1053px;
+    left: 335px;
   }
 }
