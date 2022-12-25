@@ -1,8 +1,5 @@
 import logo from "./logo1.PNG";
 import "./index.scss";
-import { Routes, Route } from "react-router-dom";
-import Page2 from "./page2";
-
 
 function App() {
   return (
@@ -27,13 +24,6 @@ function App() {
         </div>
         <div className="descriptionBox">Community Links</div>
 
-{/* use router to link page2.js */}
-
-{/* <Routes>
-       <Route path="/page2" component={Page2} /> 
-</Routes> */}
-
-{/* <Link to="/page2">About</Link> */}
         <div className="cards">
           <a
             className="App-link"
