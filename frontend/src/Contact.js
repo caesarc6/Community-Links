@@ -1,39 +1,10 @@
-import logo from "./logo1.PNG";
 import "./index.scss";
-import { Routes, Route } from "react-router-dom";
-import Page2 from "./page2";
 
-
-function App() {
+function Contact() {
   return (
     <div className="App">
       <header className="App-header">
-        <div className="circle-Outline">
-          <div className="circle-Animation top-Left"></div>
-          <div className="circle-Animation middle-Right"></div>
-          <div className="circle-Animation bottom-Left"></div>
-          <div className="circle-Animation bottom-Right"></div>
-        </div>
-        <div className="bgImageContainer">
-          <div className="backgroundImage"></div>
-        </div>
-        {/* <div className="circle-Outline">
-          <div className="circle-Animation top-Left"></div>
-          <div className="circle-Animation middle-Right"></div>
-          <div className="circle-Animation bottom-Left"></div>
-        </div> */}
-        <div className="logoPicture">
-          <img src={logo} className="App-logo" alt="logo" />
-        </div>
-        <div className="descriptionBox">Community Links</div>
-
-{/* use router to link page2.js */}
-
-{/* <Routes>
-       <Route path="/page2" component={Page2} /> 
-</Routes> */}
-
-{/* <Link to="/page2">About</Link> */}
+       
         <div className="cards">
           <a
             className="App-link"
@@ -119,4 +90,4 @@ function App() {
   );
 }
 
-export default App;
+export default Contact;
