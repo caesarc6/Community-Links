@@ -1,29 +1,10 @@
-import logo from "./logo1.PNG";
 import "./index.scss";
 
-function App() {
+function Spring23() {
   return (
     <div className="App">
       <header className="App-header">
-        <div className="circle-Outline">
-          <div className="circle-Animation top-Left"></div>
-          <div className="circle-Animation middle-Right"></div>
-          <div className="circle-Animation bottom-Left"></div>
-          <div className="circle-Animation bottom-Right"></div>
-        </div>
-        <div className="bgImageContainer">
-          <div className="backgroundImage"></div>
-        </div>
-        {/* <div className="circle-Outline">
-          <div className="circle-Animation top-Left"></div>
-          <div className="circle-Animation middle-Right"></div>
-          <div className="circle-Animation bottom-Left"></div>
-        </div> */}
-        <div className="logoPicture">
-          <img src={logo} className="App-logo" alt="logo" />
-        </div>
-        <div className="descriptionBox">Community Links</div>
-
+       
         <div className="cards">
           <a
             className="App-link"
@@ -58,7 +39,7 @@ function App() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            CSCI - 380 (WebWork)
+            CSCI - 380
           </a>
 
           <a
@@ -69,10 +50,12 @@ function App() {
           >
             Cryptography (WebWork)
           </a>
-        </div>
 
-        {/* footer links */}
-        <div className="footer">
+          <a  className="App-link" href="https://sites.google.com/view/csci-360/"
+           target="_blank" rel="noopener noreferrer"> 
+          Cryptography (Google Sites) </a>
+
+          <div className="footer">
           <a
             className="App-link"
             href="https://bbhosted.cuny.edu/"
@@ -82,6 +65,20 @@ function App() {
             Blackboard
           </a>
         </div>
+          
+        </div>
+
+        {/* footer links */}
+        {/* <div className="footer">
+          <a
+            className="App-link"
+            href="https://bbhosted.cuny.edu/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Blackboard
+          </a>
+        </div> */}
       </header>{" "}
       {/* end of header after bb link */}
       <footer>
@@ -93,4 +90,4 @@ function App() {
   );
 }
 
-export default App;
+export default Spring23;
