@@ -10,6 +10,20 @@ import "./index.scss";
 const Layout = () => {
   return (
     <>
+          <nav className="
+      App-link linkMenu">
+        <ul className="no-bullets">
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/spring23">Spring 2023</Link>
+          </li>
+          <li>
+            <Link to="/fall22">Fall 2022</Link>
+          </li>
+        </ul>
+      </nav>
      <div className="circle-Outline">
           <div className="circle-Animation top-Left"></div>
           <div className="circle-Animation middle-Right"></div>
@@ -26,8 +40,8 @@ const Layout = () => {
         </div>
         <div className="descriptionBox">Community Links</div>
 
-      <nav className="
-      App-link">
+      {/* <nav className="
+      App-link linkMenu">
         <ul className="no-bullets">
           <li>
             <Link to="/">Home</Link>
@@ -39,7 +53,8 @@ const Layout = () => {
             <Link to="/contact">Fall 2022</Link>
           </li>
         </ul>
-      </nav>
+      </nav> */}
+
 
       <Outlet />
     </>

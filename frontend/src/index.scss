@@ -1,3 +1,38 @@
+/* Basic styling */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+}
+nav {
+  background: #000000c7;
+  padding: 0 15px;
+  border-radius: 20px;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+
+
+.App-link ul{
+  flex-direction: row;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+
+.shadow-Text {
+  text-shadow: -1px -1px 14px #aaffe3;
+}
+
+// ---------------------------------- //
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -9,20 +44,44 @@ body {
   overflow: hidden;
 }
 
+.Home .App-header {
+color:#e0e0e0;
+text-align: center;
+padding: 20px 0px 10px 0px;
+height: 412px;
+}
+
 .App-header {
   overflow: hidden;
   height: calc(100vh - 15px);
 }
+a.App-link {
+  width: fit-content;
+}
 
 .App-link {
   display: block;
-  width: 222px;
+  // width: 222px;
   height: 100%;
   text-align: center;
   color: #ffffff;
   margin: 0.7rem auto;
   padding: 35px 20px 35px 20px;
 }
+
+.linkMenu ul li {
+padding: 10px;
+}
+
+.linkMenu ul li a {
+  padding: 10px 10px 10px 10px;
+}
+
+.linkMenu.App-link{
+  margin-top: 0px !important;
+  padding: 5px 0px 5px 0px;
+}
+
 .cards {
   display: block;
   font-weight: 700;
@@ -291,6 +350,7 @@ footer {
     margin-top: 0px;
     padding: 5px;
     margin: 0px auto;
+    
   }
 
   .logoPicture {

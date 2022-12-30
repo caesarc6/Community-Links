@@ -1,6 +1,6 @@
 import "./index.scss";
 
-function Contact() {
+function Spring23() {
   return (
     <div className="App">
       <header className="App-header">
@@ -90,4 +90,4 @@ function Contact() {
   );
 }
 
-export default Contact;
+export default Spring23;
