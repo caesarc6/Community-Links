@@ -2,9 +2,9 @@ import "./index.scss";
 
 function Spring23() {
   return (
-    <div className="App">
-      <header className="App-header">
-       
+    <div className="App Home">
+    <header className="App-header Spring">
+      <h2 className="shadow-Text">🍂🌄🍁</h2>
         <div className="cards">
           <a
             className="App-link"
@@ -33,15 +33,7 @@ function Spring23() {
             CSCI 377 Computer Algorithms
           </a>
 
-          <a
-            className="App-link"
-            href="/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            CSCI 412 Network Security and Forensics
-          </a>
-
+  
           <a
             className="App-link"
             href="/"

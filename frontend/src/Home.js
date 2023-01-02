@@ -4,15 +4,21 @@ import "./index.scss";
 function App() {
   return (
     <div className="App Home">
-      <header className="App-header">
+      <header className="App-header Fall">
         <h1 className="shadow-Text">🌎🦊🍃</h1>
+     
+     
+     <h4>
+        <br/>
         <br/>
         1 Winter class. <br/>
         5 Spring classes.<br/>
         <br/>
+        <br/>
         Winter:<br/>
         CSCI 412 Network Security and Forensics
         <br/><br/>
+        <br/>
         Spring:<br/>
         CSCI 360 Cryptography & Cryptanalysis,
         CSCI 375 Operating Systems,
@@ -22,6 +28,7 @@ function App() {
         <br/>
         MAT 152 Calculus II
 
+</h4>
        
       </header>
 

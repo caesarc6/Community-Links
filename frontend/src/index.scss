@@ -50,6 +50,12 @@ text-align: center;
 padding: 20px 0px 10px 0px;
 height: 412px;
 }
+.Home .App-header.Spring {
+  height: calc(100vh - 188px);
+}
+.Home .App-header.Fall {
+  height: calc(100vh - 188px);
+}
 
 .App-header {
   overflow: hidden;

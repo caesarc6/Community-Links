@@ -17,10 +17,13 @@ const Layout = () => {
             <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/spring23">Spring 2023</Link>
+            <Link to="/Winter23">Winter 2023</Link>
           </li>
           <li>
-            <Link to="/fall22">Fall 2022</Link>
+            <Link to="/Spring23">Spring 2023</Link>
+          </li>
+          <li>
+            <Link to="/Fall22">Fall 2022</Link>
           </li>
         </ul>
       </nav>
@@ -39,22 +42,6 @@ const Layout = () => {
           <img src={logo} className="App-logo" alt="logo" />
         </div>
         <div className="descriptionBox">Community Links</div>
-
-      {/* <nav className="
-      App-link linkMenu">
-        <ul className="no-bullets">
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/blogs">Blogs</Link>
-          </li>
-          <li>
-            <Link to="/contact">Fall 2022</Link>
-          </li>
-        </ul>
-      </nav> */}
-
 
       <Outlet />
     </>
