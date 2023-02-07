@@ -16,11 +16,10 @@ function App() {
         <br/>
         <br/>
         Winter:<br/>
-        CSCI 412 Network Security and Forensics
+        CSCI 360 Cryptography and Cryptanalysis
         <br/><br/>
         <br/>
         Spring:<br/>
-        CSCI 360 Cryptography & Cryptanalysis,
         CSCI 375 Operating Systems,
         <br/>
         CSCI 377 Computer Algorithms,

@@ -13,11 +13,19 @@ function Winter23() {
 
           <a
             className="App-link"
-            href="/"
+            href="http://24.0.255.115/webwork2/WinterCrypto/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            CSCI 412 Network Security and Forensics
+            CSCI 360 CRYPTOLOGY
+          </a>
+          <a
+            className="App-link"
+            href="https://cocalc.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            COCALC 
           </a>
 
           

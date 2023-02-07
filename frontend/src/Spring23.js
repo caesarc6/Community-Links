@@ -6,14 +6,13 @@ function Spring23() {
     <header className="App-header Spring">
       <h2 className="shadow-Text">🍂🌄🍁</h2>
         <div className="cards">
-          <a
+          {/* <a
             className="App-link"
             href="/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            CSCI 360 Cryptography & Cryptanalysis
-          </a>
+          </a> */}
 
           <a
             className="App-link"
