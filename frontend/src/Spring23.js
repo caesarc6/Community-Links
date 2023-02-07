@@ -3,8 +3,8 @@ import "./index.scss";
 function Spring23() {
   return (
     <div className="App Home">
-    <header className="App-header Spring">
-      <h2 className="shadow-Text">🍂🌄🍁</h2>
+      <header className="App-header Spring">
+        <h2 className="shadow-Text">🍂🌄🍁</h2>
         <div className="cards">
           {/* <a
             className="App-link"
@@ -13,26 +13,6 @@ function Spring23() {
             rel="noopener noreferrer"
           >
           </a> */}
-
-          <a
-            className="App-link"
-            href="/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-             CSCI 375 Operating Systems
-          </a>
-
-          <a
-            className="App-link"
-            href="/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            CSCI 377 Computer Algorithms
-          </a>
-
-  
           <a
             className="App-link"
             href="/"
@@ -51,21 +31,43 @@ function Spring23() {
             MAT 152 Calculus II
           </a>
 
-          {/* <a  className="App-link" href="https://sites.google.com/view/csci-360/"
-           target="_blank" rel="noopener noreferrer"> 
-          Cryptography (Google Sites) </a> */}
-
-          <div className="footer">
           <a
             className="App-link"
-            href="https://bbhosted.cuny.edu/"
+            href="/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Blackboard
+            CSCI 377 Computer Algorithms
           </a>
-        </div>
-          
+
+          <a
+            className="App-link"
+            href="/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            CSCI 375 Operating Systems
+          </a>
+
+          <a
+            className="App-link"
+            href="/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            CSCI 412 Computer Security and Forensics
+          </a>
+
+          <div className="footer">
+            <a
+              className="App-link"
+              href="https://bbhosted.cuny.edu/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Blackboard
+            </a>
+          </div>
         </div>
 
         {/* footer links */}
@@ -79,7 +81,7 @@ function Spring23() {
             Blackboard
           </a>
         </div> */}
-      </header>{" "}
+      </header>
       {/* end of header after bb link */}
       <footer>
         <div className="footer">

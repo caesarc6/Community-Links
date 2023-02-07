@@ -18,14 +18,12 @@ a {
   text-decoration: none;
 }
 
-
-.App-link ul{
+.App-link ul {
   flex-direction: row;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
-
 
 .shadow-Text {
   text-shadow: -1px -1px 14px #aaffe3;
@@ -45,10 +43,10 @@ body {
 }
 
 .Home .App-header {
-color:#e0e0e0;
-text-align: center;
-padding: 20px 0px 10px 0px;
-height: 412px;
+  color: #e0e0e0;
+  text-align: center;
+  padding: 20px 0px 10px 0px;
+  height: 412px;
 }
 .Home .App-header.Spring {
   height: calc(100vh - 188px);
@@ -76,14 +74,14 @@ a.App-link {
 }
 
 .linkMenu ul li {
-padding: 10px;
+  padding: 10px;
 }
 
 .linkMenu ul li a {
   padding: 10px 10px 10px 10px;
 }
 
-.linkMenu.App-link{
+.linkMenu.App-link {
   margin-top: 0px !important;
   padding: 5px 0px 5px 0px;
 }
@@ -165,7 +163,6 @@ a {
   // z-index: -1;
 }
 
-
 @keyframes spin {
   from {
     transform: rotate(0deg);
@@ -174,7 +171,6 @@ a {
     transform: rotate(360deg);
   }
 }
-
 
 .descriptionBox {
   text-align: center;
@@ -278,6 +274,10 @@ footer {
   animation: circle1 13s linear infinite, glow 5s ease-in-out infinite;
 }
 
+.no-overflow {
+  overflow: hidden;
+}
+
 @-webkit-keyframes circle {
   0% {
     transform: rotate(0deg) translate(-165px) rotate(0deg);
@@ -356,7 +356,6 @@ footer {
     margin-top: 0px;
     padding: 5px;
     margin: 0px auto;
-    
   }
 
   .logoPicture {
