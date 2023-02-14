@@ -9,19 +9,19 @@ function App() {
         <h4>
           <br />
           <br />
-          <br />
           Spring Semester
           <br />
           <br />
           PSY 373 Correctional Psychology,
           <br />
-          CSCI 375 Operating Systems,
+          MAT 152 Calculus II
           <br />
           CSCI 377 Computer Algorithms,
           <br />
-          PSY 373 Correctional Psychology,
+          CSCI 412 Network Security and Forensics
           <br />
-          MAT 152 Calculus II
+          CSCI 375 Operating Systems,
+          <br />
         </h4>
       </header>
 
